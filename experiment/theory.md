@@ -10,9 +10,10 @@
 </ol>  
 
 ##### Example
-
-1.Select  ‘A’ as the root node and insert it into the Queue.
-2.Extract node ‘A’ from the queue and insert the child nodes of ‘A’, i.e., ‘B’ and ‘C’.
-3.Add tp the path node ‘A’.
-4.The queue is not empty and has node ‘B’ and ‘C’. Since ‘B’ is the first node in the queue, let’s extract it and insert the child nodes of ‘B’, i.e., node ‘D’ and ‘E’.
-5.Repeat these steps until the queue gets empty. Note that the nodes that are already visited should not be added to the queue again.
+<ul>
+<li> Select  ‘A’ as the root node and insert it into the Queue.</li>
+<li> Extract node ‘A’ from the queue and insert the child nodes of ‘A’, i.e., ‘B’ and ‘C’.</li>
+<li> Add tp the path node ‘A’.</li>
+<li> The queue is not empty and has node ‘B’ and ‘C’. Since ‘B’ is the first node in the queue, let’s extract it and insert the child nodes of ‘B’, i.e., node ‘D’ and ‘E’. </li>
+<li> Repeat these steps until the queue gets empty. Note that the nodes that are already visited should not be added to the queue again.</li>
+</ul>
