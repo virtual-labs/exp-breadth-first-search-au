@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Breadth First Search is equivalent to which of the traversal in the Binary Trees?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Pre-order Traversal",
+        "b": "Post-order Traversal",
+        "c": "Level-order Traversal",
+        "d": "In-order Traversal"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "When the Breadth First Search of a graph is unique?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "When the graph is a Binary Tree",
+        "b": "When the graph is a Linked List",
+        "c": "When the graph is a n-ary Tree",
+        "d": "When the graph is a Ternary Tree"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In BFS, how many times a node is visited?",
+      "answers": {
+        "a": "Once",
+        "b": "Twice",
+        "c": "Equivalent to number of indegree of the node",
+        "d": "Thrice"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The Breadth First Search traversal of a graph will result into?",
+      "answers": {
+        "a": "Linked List",
+        "b": "Array",
+        "c": "Graph with back edges",
+        "d": "Tree"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is not an application of Breadth First Search?",
+      "answers": {
+        "a": "Finding shortest path between two nodes",
+        "b": "Path finding",
+        "c": "Finding bipartiteness of a graph",
+        "d": "GPS navigation system"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
