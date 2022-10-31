@@ -17,3 +17,43 @@
 <li> The queue is not empty and has node ‘B’ and ‘C’. Since ‘B’ is the first node in the queue, let’s extract it and insert the child nodes of ‘B’, i.e., node ‘D’ and ‘E’. </li>
 <li> Repeat these steps until the queue gets empty. Note that the nodes that are already visited should not be added to the queue again.</li>
 </ul>
+
+## Example 
+
+![BFS1]
+<p align="center">
+<img src="images/BFS1.png"  />
+</p>
+ENQUEUED the first element
+
+![BFS2]
+<p align="center">
+<img src="images/BFS2.png"  />
+</p>
+DEQUEUED the first element 
+
+
+![BFS3]
+<p align="center">
+<img src="images/BFS3.png"  />
+</p>
+ENQUEUED the second element
+
+![BFS4]
+<p align="center">
+<img src="images/BFS4.png"  />
+</p>
+ENQUEUED the third element
+
+
+![BFS5]
+<p align="center">
+<img src="images/BFS5.png"  />
+</p>
+DEQUEUED the second element
+
+![BFS6]
+<p align="center">
+<img src="images/BFS6.png"  />
+</p>
+DEQUEUED the third element
