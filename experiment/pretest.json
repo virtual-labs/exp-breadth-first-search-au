@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "Which data structure used to store in BFS",
+      "question": "Which data structure is used in breadth first search of a graph to store nodes ?",
       "answers": {
         "a": "array",
         "b": "stack",
