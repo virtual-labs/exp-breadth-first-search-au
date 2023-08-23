@@ -9,51 +9,40 @@
 <li>Add extracted node to the path </li>
 </ol>  
 
-##### Example
-<ul>
-<li> Select  ‘A’ as the root node and insert it into the Queue.</li>
-<li> Extract node ‘A’ from the queue and insert the child nodes of ‘A’, i.e., ‘B’ and ‘C’.</li>
-<li> Add tp the path node ‘A’.</li>
-<li> The queue is not empty and has node ‘B’ and ‘C’. Since ‘B’ is the first node in the queue, let’s extract it and insert the child nodes of ‘B’, i.e., node ‘D’ and ‘E’. </li>
-<li> Repeat these steps until the queue gets empty. Note that the nodes that are already visited should not be added to the queue again.</li>
-</ul>
-
 ## Example 
 
-![BFS1]
 <p align="center">
+ Initialize the queue.
 <img src="images/BFS1.png"  />
 </p>
-ENQUEUED the first element
 
-![BFS2]
 <p align="center">
+Start from visiting S (starting node), and mark it as visited.
 <img src="images/BFS2.png"  />
 </p>
-DEQUEUED the first element 
 
-
-![BFS3]
+Get all  unvisited adjacent node from S Choose A, mark it as visited and enqueue it.
 <p align="center">
 <img src="images/BFS3.png"  />
 </p>
-ENQUEUED the second element
 
-![BFS4]
+The unvisited adjacent node from S is B. Mark it as visited and enqueue it.
 <p align="center">
 <img src="images/BFS4.png"  />
 </p>
-ENQUEUED the third element
 
-
-![BFS5]
+The unvisited adjacent node from S is C. We mark it as visited and enqueue it.
 <p align="center">
 <img src="images/BFS5.png"  />
 </p>
-DEQUEUED the second element
 
-![BFS6]
+S is left with no unvisited adjacent nodes. So, we dequeue and find A.
+
 <p align="center">
 <img src="images/BFS6.png"  />
 </p>
-DEQUEUED the third element
+From A we have D as unvisited adjacent node. We mark it as visited and enqueue it.
+<p align="center">
+<img src="images/BFS7.png"  />
+</p>
+<p><b>Breadth First Search: S A B C D</b></p>
