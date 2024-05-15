@@ -1,2 +1,2 @@
-### Aim of the experiment
-Breadth First Traversal, referred to as Breadth First Search (BFS), is a graph traversal algorithm used to explore and visit all the vertices (nodes) of a graph in a breadthward motion.
+<h3>Aim of the experiment</h3>
+The aim of this  experiment is to demonstrate and understand the Breadth First Search algorithm by implementing it on a graph. BFS is a graph traversal technique where all nodes at the current level are explored before moving to the next level. This approach facilitates a systematic exploration of a graph or tree structure, ensuring that nodes are visited in a breadth-wise manner, starting from the root or a specified starting point.
