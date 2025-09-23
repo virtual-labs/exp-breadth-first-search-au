@@ -34222,7 +34222,7 @@
         }
         return e;
       }
-      var u = n.p + "static/media/logo.3650b70675c1975b0e3e2751dd1aa964.svg";
+      var u = n.p + "static/media/logo.svg";
       function c(e) {
         return (
           (function (e) {
@@ -34353,9 +34353,7 @@
         },
         v = n(9962),
         m = n.n(v);
-      var y =
-          n.p +
-          "static/media/drag-indicator.667cb3dbb9320152d1c034b20a2bdac4.svg",
+      var y = n.p + "static/media/drag-indicator.svg",
         b = n(4475),
         x = n.n(b),
         w = n(8892);
