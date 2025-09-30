@@ -1,0 +1,93 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which data structure is used in breadth first search of a graph to store nodes?",
+      "answers": {
+        "a": "array",
+        "b": "stack",
+        "c": "queue",
+        "d": "tree"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Breadth First Search is equivalent to which of the traversal in the Binary Trees?",
+      "answers": {
+        "a": "Pre-order Traversal",
+        "b": "Level-order Traversal",
+        "c": "In-order Traversal",
+        "d": "Post-order Traversal"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the time complexity of BFS in a graph with V vertices and E edges?",
+      "answers": {
+        "a": "O(V)",
+        "b": "O(E)",
+        "c": "O(V + E)",
+        "d": "O(V * E)"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the space complexity of BFS?",
+      "answers": {
+        "a": "O(1)",
+        "b": "O(V)",
+        "c": "O(E)",
+        "d": "O(V + E)"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "BFS explores nodes in which order?",
+      "answers": {
+        "a": "Depth-wise",
+        "b": "Breadth-wise",
+        "c": "Random order",
+        "d": "Reverse order"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a common application of BFS?",
+      "answers": {
+        "a": "Cycle detection",
+        "b": "Shortest path finding",
+        "c": "Level order traversal",
+        "d": "All of the above"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In BFS, what ensures that nodes at the current level are explored before moving to deeper levels?",
+      "answers": {
+        "a": "Stack",
+        "b": "Queue",
+        "c": "Recursion",
+        "d": "Priority Queue"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following BFS properties is useful for finding the shortest path in an unweighted graph?",
+      "answers": {
+        "a": "Cycle Detection",
+        "b": "Level Order Traversal",
+        "c": "Shortest Path Finding",
+        "d": "Bi-directional Search"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
