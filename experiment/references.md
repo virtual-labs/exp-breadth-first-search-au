@@ -1,4 +1,3 @@
-<h4>References</h4>
 <ul>
   <li><a href="https://en.wikipedia.org/wiki/Breadth-first_search">Breadth-first search on Wikipedia</a></li>
   <li><a href="https://www.simplilearn.com/tutorials/data-structure-tutorial/bfs-algorithm">Breadth-First Search Algorithm on Simplilearn.com</a></li>
