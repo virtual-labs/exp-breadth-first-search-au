@@ -17356,22 +17356,18 @@
                           v = e.findNearestElement(a[2], a[3], !0, !0);
                         return (
                           g && g.isNode()
-                            ? (g
-                                .activate()
-                                .emit({
-                                  originalEvent: t,
-                                  type: "cxttapstart",
-                                  position: { x: a[0], y: a[1] },
-                                }),
+                            ? (g.activate().emit({
+                                originalEvent: t,
+                                type: "cxttapstart",
+                                position: { x: a[0], y: a[1] },
+                              }),
                               (e.touchData.start = g))
                             : v && v.isNode()
-                            ? (v
-                                .activate()
-                                .emit({
-                                  originalEvent: t,
-                                  type: "cxttapstart",
-                                  position: { x: a[0], y: a[1] },
-                                }),
+                            ? (v.activate().emit({
+                                originalEvent: t,
+                                type: "cxttapstart",
+                                position: { x: a[0], y: a[1] },
+                              }),
                               (e.touchData.start = v))
                             : r.emit({
                                 originalEvent: t,
@@ -34359,7 +34355,7 @@
         v = n.n(g);
       var m =
           n.p +
-          "static/media/drag-indicator.667cb3dbb9320152d1c034b20a2bdac4.svg",
+          "./static/media/drag-indicator.667cb3dbb9320152d1c034b20a2bdac4.svg",
         y = n(4475),
         b = n.n(y),
         x = n(8892);
