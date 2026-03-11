@@ -1,0 +1,21 @@
+<li>On the Home menu of simulation you can view a graph with default values in 'No of nodes' and 'Starting node'.</li>
+
+<li>To change values and generate Custom graphs with 'n' number of nodes user follow below steps:</li>
+
+1. Select the graph creation mode radio button from 'Random' to 'Manual'
+2. Enter the no of nodes you want to generate in the Number of Nodes field.
+3. Click on each adjascent nodes together to generate edges inbetween
+4. Repeat the step 3 untill you made the graph
+5. Enter the Starting node number in the 'Starting Node' field
+6. Press the 'GO' Button to start traversing of node using Breadth First Search.
+7. Press the 'RESET' botton to Reset to the presets of simulation/start again.
+
+<li>Random Graphs can also be generated in the simulation as follows:</li>
+
+1. Select 'Random' radio button in Create Edges
+2. Enter the no. of nodes needed in 'Number of nodes' text field.
+3. Enter the starting Node number in 'Starting Node' field.
+4. Press the 'Go' Buton to start the traversing in randomly generated graph.
+5. Press the 'RESET' botton to Reset to the presets of simulation/start again.
+
+<li> All outputs and transitions works after pressing 'Go' button with filling each field right.</li>

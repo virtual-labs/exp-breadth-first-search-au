@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which data structure is used to implement BFS?",
+      "answers": {
+        "a": "Stack",
+        "b": "Queue",
+        "c": "Priority Queue",
+        "d": "Tree"
+      },
+      "explanations": {
+        "a": "",
+        "b": "BFS uses a queue to explore nodes level by level.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider the graph:\n\n1 -- 2 -- 4\n|    |\n3 -- 5\n\nIf BFS starts at node 1, what is the order of traversal?",
+      "answers": {
+        "a": "1, 2, 3, 4, 5",
+        "b": "1, 3, 2, 5, 4",
+        "c": "1, 2, 3, 5, 4",
+        "d": "1, 3, 2, 4, 5"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "Start at 1, enqueue neighbors [2,3], visit 2 → enqueue 4,5, then visit 3 and 5, then 4.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "BFS can be used to determine:",
+      "answers": {
+        "a": "Shortest path in an unweighted graph",
+        "b": "Cycle detection in a directed graph",
+        "c": "Topological sorting",
+        "d": "Finding strongly connected components"
+      },
+      "explanations": {
+        "a": "BFS explores nodes level-wise, which is ideal for shortest path in unweighted graphs.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In BFS, which of the following statements is true?",
+      "answers": {
+        "a": "It may visit a node multiple times",
+        "b": "It always uses DFS stack internally",
+        "c": "It visits all neighbors of a node before moving deeper",
+        "d": "It is not suitable for finding shortest paths"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "BFS explores all neighbors first before going deeper into the graph.",
+        "d": ""
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Consider the following weighted graph (all edges have weight 1) and start BFS at node A:\n\nA -- B -- D\n|\nC -- E\n\nWhat is the BFS traversal order?",
+      "answers": {
+        "a": "A, B, C, D, E",
+        "b": "A, C, B, E, D",
+        "c": "A, B, C, E, D",
+        "d": "A, C, B, D, E"
+      },
+      "explanations": {
+        "a": "Start at A → enqueue neighbors [B,C] → visit B → enqueue D → visit C → enqueue E → visit D → visit E.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following BFS applications is incorrect?",
+      "answers": {
+        "a": "Level-order traversal of a tree",
+        "b": "Finding shortest path in an unweighted graph",
+        "c": "Finding connected components",
+        "d": "Depth-first exploration of nodes"
+      },
+      "explanations": {
+        "a": "",
+        "b": "",
+        "c": "",
+        "d": "DFS is used for depth-first exploration, not BFS."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    }
+  ]
+}
